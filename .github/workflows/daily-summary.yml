@@ -27,7 +27,9 @@ jobs:
         run: uv sync
         
       - name: Install dependencies
-        run: pip install python-dateutil
+        run: |
+          pip install python-dateutil
+          pip install requests feedparser
 
       - name: Run Horizon
         env:
