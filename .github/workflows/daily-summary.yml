@@ -3,7 +3,7 @@ name: Daily Horizon Summary
 on:
   schedule:
     - cron: '*/5 * * * *'  # 每周一UTC时间0点（北京时间周一早上8点）
-  workflow_dispatch:      # Allow manual trigger
+  workflow_dispatch:      
 
 jobs:
   daily-summary:
