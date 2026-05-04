@@ -3,8 +3,8 @@
   "ai": {
     "provider": "openai",
     "model": "deepseek-v4-pro",
-    "base_url": "https://api.deepseek.com",
-    "api_key_env": "OPENAI_API_KEY",
+    "base_url": "https://www.packyapi.com",
+    "api_key_env": "sk-mYWsxUogZIPZenDg4BM88rXjcQYCjGc3Iqe2o839gdtYOkZT",
     "temperature": 0.3,
     "max_tokens": 8192,
     "languages": [
