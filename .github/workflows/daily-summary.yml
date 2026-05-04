@@ -24,10 +24,10 @@ jobs:
         uses: astral-sh/setup-uv@v3
 
       - name: Install dependencies
-        run:| 
+        run: |
           uv sync
-            pip install python-dateutil
-            pip install requests feedparser
+          pip install python-dateutil
+          pip install requests feedparser
 
       - name: Run Horizon
         env:
