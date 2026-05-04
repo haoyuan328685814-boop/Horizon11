@@ -4,7 +4,7 @@
     "provider": "openai",
     "model": "deepseek-v4-pro",
     "base_url": "https://www.packyapi.com",
-    "api_key_env": "sk-mYWsxUogZIPZenDg4BM88rXjcQYCjGc3Iqe2o839gdtYOkZT",
+    "api_key_env": "API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
     "languages": [
